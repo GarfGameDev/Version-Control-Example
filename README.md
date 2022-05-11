@@ -1,30 +1,32 @@
-> This is a block quote
->> This is another quote
->>> A bit like reddit
->>>> Or even tumblr to an extent
+# Hello World
+---
+##### This readme will let you know how to create a simple Hello World program using C#. To get started you'll need to make sure that you have the following:
 
-![A Picture of trees](http://www.fillmurray.com/200/300)
+1. Visual Studio 2022
+1. Git Version Control
+1. Windows
 
-[Markdown CheatSheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet-online.pdf)
+##### With all those installed go ahead and open up Visual Studio 2022, create a new project and choose the Console App option from the choices listed.
 
-# Thor Ragnarok
-## Guardians of the Galaxy
-### The Avengers
-#### Captain Marvel
-##### Spiderman
-###### Black Panther
+![Console App](https://i.gyazo.com/b4137beb94410b2f6911e137b2d6eed8.png)
+You'll be presented with a template already which you can either overwrite or add to by entering in the following code:
 
-# / o \
+```csharp
+using System;
 
-**Cathy French**
+namespace MyHelloWorldApp
+{
+    class Program
+    {
+       static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World");
+        }
+    }
+}
+```
+I recommend typing out your code manually whenever possible as you'll have access to the handy tooltips which will create a drop down after writing out some class names that will include all the methods related with the class. As an example when you type out the Console class you'll be presented with a list of methods contained within Console which includes the WriteLine method which is what we used to display our Hello World message in the console when we run our program.
 
-*Laura Tozer*
+![Gif Test](https://i.gyazo.com/1b493bbe211d43c91dc9803f50cdefa9.gif)
 
-1. Apple
-1. Orange
-1. Banana
-1. Scoopy Banoopy
-
-- Han Solo
-- Princess Leia
-- Luke
+Here's a checklist
